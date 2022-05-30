@@ -23,38 +23,38 @@
 <!--    footer div   -->
 <footer id="footer">
     <div class=" menuContainer topMargin colorWhite lateralMargin">
-            <div class="title-top-seb">
-                <a id="sbButton"><h1>Sebastian Camacho™</h1></a>
-            </div>
-            <div class="container">
-            <!--    left menu   -->
-                    <div class="div-menu-left directionDisplayTopMenu">
-                        <div id="wkButton" class="nav-menu-left whiteBorderTop whiteBorderButton">
-                            <div class="verticalText"><span>Work</span></div>
-                        </div>
-                        <div id="abButton" class="nav-menu-left whiteBorderButton">
-                            <div class="verticalText"><span>About</span></div>
-                        </div>
-                        <div id="ctButton" class="nav-menu-left whiteBorderButton">
-                            <div class="verticalText"><span>Contact</span></div>
-                        </div>
+        <div class="title-top-seb">
+            <a onclick="sbButton();"><h1>Sebastian Camacho™</h1></a>
+        </div>
+        <div class="container">
+        <!--    left menu   -->
+                <div class="div-menu-left directionDisplayTopMenu">
+                    <div class="nav-menu-left whiteBorderTop whiteBorderButton">
+                        <div class="verticalText" onclick="wkButton();"><span>Work</span></div>
                     </div>
-            <!--    center menu    -->
-                    <div class="div-menu-center directionDisplayTopMenu progress-status">
-                        <div class="whiteBorderTop whiteBorderButton">
-                            <a id="status"><p>My email is sebastian.rob.cam@gmail.com</p></a>
-                        </div>
-                        <div class="nav-menu-center-sm social-media whiteBorderButton">
-                            <a id="igButton"><span class="fab fa-instagram"></span></a> / <a id="gitButton"><span class="fab fa-github"></span></a> / <a id="twButton"><span class="fab fa-twitter"></span></a>
-                        </div>
+                    <div class="nav-menu-left whiteBorderButton">
+                        <div class="verticalText" onclick="abButton();"><span>About</span></div>
                     </div>
-            <!--    right menu  -->
-                    <div class="div-menu-right directionDisplayTopMenu">
-                        <div class="nav-menu-right whiteBorderTop whiteBorderButton date">
-                            <span>Insert what you want here!</span>
-                        </div>
+                    <div class="nav-menu-left whiteBorderButton">
+                        <div class="verticalText" onclick="ctButton();"><span>Contact</span></div>
                     </div>
-            </div>
+                </div>
+        <!--    center menu    -->
+                <div class="div-menu-center directionDisplayTopMenu progress-status">
+                    <div class="whiteBorderTop whiteBorderButton">
+                        <a id="status"><p>My email is sebastian.rob.cam@gmail.com</p></a>
+                    </div>
+                    <div class="nav-menu-center-sm social-media whiteBorderButton">
+                        <a onclick="igButton();"><span class="fab fa-instagram"></span></a> / <a onclick="gitButton();"><span class="fab fa-github"></span></a> / <a onclick="twButton();"><span class="fab fa-twitter"></span></a>
+                    </div>
+                </div>
+        <!--    right menu  -->
+                <div class="div-menu-right directionDisplayTopMenu">
+                    <div class="nav-menu-right whiteBorderTop whiteBorderButton date">
+                        <span>Insert what you want here!</span>
+                    </div>
+                </div>
+        </div>
     </div>
 </footer>
 </body>
