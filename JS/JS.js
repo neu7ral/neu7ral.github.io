@@ -93,7 +93,7 @@ let piButtonWork = document.getElementById("pyWork");
 let iaButtonWork = document.getElementById("iaWork");
 
 jsButtonWork.onclick =function(){
-    location.href="/html/jsPrograms.html";
+    location.href="/html/jsProjects.html";
 }
 piButtonWork.onclick = function(){
     location.href="/html/pyPrograms.html";
