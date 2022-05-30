@@ -1,0 +1,219 @@
+/*  const conf  */
+.lateralMargin {
+    margin-left: 18%;
+    margin-right: 18%;
+}
+.topMargin{
+    margin-top: 2%;
+}
+.bottomMargin{
+    margin-bottom: 2%;
+}
+.directionDisplayTopMenu {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.blackBorderTop {
+    border-top: 1px solid #000000;
+}
+.whiteBorderTop {
+    border-top: 1px solid #ffffff;
+}
+.verticalText {
+    position: absolute;
+    top: 30%;
+}
+.colorWhite {
+    color: #ffffff;
+}
+.blackBorderButton {
+    border-bottom: 1px solid #000000;
+}
+.whiteBorderButton {
+    border-bottom: 1px solid #ffffff;
+}
+.menuContainer  {
+    height: auto;
+    margin-bottom: 2%;
+}
+/*  const conf  */
+
+/*  Index  */
+#body {
+    background-color: #f7f7f7;
+    font-family: 'Roboto', Courier, monospace;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/*  Start top menu  */
+.title-top-seb {
+    width: 31%;
+    text-align: left;
+    font-family: 'Roboto', Courier, monospace;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 15px;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+}
+/* left-part */
+.div-menu-left{
+    height: 200px;
+    width: 41%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.nav-menu-left {
+    position: relative;
+    width: 100%;
+    height: 33.3%;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.nav-menu-left:hover {
+    color: #8f8f8f;
+}
+/* center-part */
+.div-menu-center {
+    margin-left: 3%;
+    height: 200px;
+    width: 26%;
+    font-style: normal;
+    font-weight: 300;
+    cursor: pointer;
+}
+.progress-status {
+    font-size: 14px;
+}
+.social-media {
+    font-size: 18px;
+    text-align: center;
+}
+.nav-menu-center-sm:hover {
+    transition: 0.4s;
+    color: #8f8f8f;
+}
+
+/* right-part-menu */
+.div-menu-right {
+    margin-left: 3%;
+    height: 200px;
+    width: 26%;
+    font-style: normal;
+    font-weight: 300;
+}
+.nav-menu-right {
+    height: auto;
+    font-size: 14px;
+}
+.date {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', Courier, monospace;
+    font-size: 30px;
+    font-weight: 500;
+}
+/*  End top menu  */
+
+/*  Start content page  */
+.contentContainer {
+    margin-bottom: 2%;
+    display: flex;
+    height: auto;
+}
+#directionContentContainer {
+    flex-direction: row;
+}
+.contentContainerLeft {
+    border-right: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height: auto;
+}
+.contentContainerRight {
+    display: flex;
+    width: 75%;
+    height: auto;
+    text-align: left;
+    margin-left: 0.5%;
+}
+#marginRightContent {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+    text-align: left;
+}
+/*  End content page  */
+
+/* the inferno */
+#footer {
+    background-color: #000000;
+    margin-top: auto;
+    width: 100%;
+}
+/* the inferno */
+
+/* Content in work page */
+.containerContWork {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+#introduceMe {
+    font-weight: 300;
+    font-family: 'Roboto';
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2%;
+}
+.contentWork {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+.javascriptWorkDiv {
+    width: 32%;
+    height: auto;
+    margin-right: 2%;
+    font-size: 150px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.javascriptWorkDiv:hover {
+    color: #f7df1e;
+}
+.pythonWorkDiv {
+    width: 32%;
+    height: auto;
+    margin-right: 2%;
+    font-size: 150px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.pythonWorkDiv:hover {
+    color: #3776ab;
+}
+.iaWorkDiv {
+    width: 32%;
+    height: auto;
+    font-size: 150px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.iaWorkDiv:hover {
+    color: #00A3FF;
+}
