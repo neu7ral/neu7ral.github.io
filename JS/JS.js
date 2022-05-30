@@ -34,8 +34,7 @@
     };
     ctButtonFooter.onclick =function(){
         location.href="/contact.html";
-    }
-
+    };
     // (--->    top menu center-part   <---)
     let igButton = document.getElementById("igButton");
     let gitButton = document.getElementById("gitButton");
@@ -96,9 +95,9 @@ jsButtonWork.onclick =function(){
     location.href="/html/jsProjects.html";
 }
 piButtonWork.onclick = function(){
-    location.href="/html/pyPrograms.html";
+    location.href="/html/pyProjects.html";
 };
 iaButtonWork.onclick = function(){
-    location.href="/html/iaPrograms.html";
+    location.href="/html/iaProjects.html";
 };
 // (--->    Work workPage   <---)
