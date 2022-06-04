@@ -45,12 +45,12 @@
 // (--->    END indexPage   <---)
 // (--->    Work workPage   <---)
     function jsProjects() {
-        window.location.href="/html/jsProjects.html";
+        window.location.href="/work/js/jsProjects.html";
     };
     function pyProjects() {
-        window.location.href="/html/pyProjects.html";
+        window.location.href="/work/python/pyProjects.html";
     };
     function iaProjects() {
-        window.location.href="/html/iaProjects.html";
+        window.location.href="/work/ia/iaProjects.html";
     };
 // (--->    Work workPage   <---)
