@@ -14,109 +14,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sebastian™ — Work</title>
 </head>
-<body id="body" class="lateralMargin">
-    <div class="menuContainer lateralMargin topMargin">
-        <div class="title-top-seb">
-            <a onclick="sbButton();"><h1>Sebastian Camacho🇲🇽</h1></a>
+<body id="bodyWork">
+<div class="titlePage">
+    <a onclick="sbButton();"><h1 class="h1Seb">Sebastian Camacho™</h1></a>
+</div>
+<div class="containerMenu lateralMargin">
+    <div class="leftMenu">
+        <div class="workDiv blackBorderButton">
+            <button onclick="wkButton()">Work</button>
         </div>
-        <!--    left menu   -->
-            <div class="container">
-                <div class="div-menu-left directionDisplayTopMenu">
-                    <div class="nav-menu-left blackBorderTop blackBorderButton">
-                        <div class="verticalText" onclick="wkButton();"><span>Work</span></div>
-                    </div>
-                    <div class="nav-menu-left blackBorderButton">
-                        <div class="verticalText" onclick="abButton();"><span>About</span></div>
-                    </div>
-                    <div class="nav-menu-left blackBorderButton">
-                        <div class="verticalText" onclick="ctButton();"><span>Contact</span></div>
-                    </div>
-                </div>
-        <!--    center menu    -->
-                <div class="div-menu-center directionDisplayTopMenu progress-status">
-                    <div class="blackBorderTop blackBorderButton">
-                        <a id="status"><p>I am learning HTML, CSS, JavaScript, Python and enjoy life.</p></a>
-                    </div>
-                    <div class="nav-menu-center-sm social-media blackBorderButton">
-                        <a onclick="igButton();"><span class="fab fa-instagram"></span></a> / <a onclick="gitButton();"><span class="fab fa-github"></span></a> / <a onclick="twButton();"><span class="fab fa-twitter"></span></a>
-                    </div>
-                </div>
-        <!--    right menu  -->
-                <div class="div-menu-right directionDisplayTopMenu">
-                    <div class="nav-menu-right blackBorderTop blackBorderButton date">
-                        <span id="menuMonth"></span>/
-                        <span id="menuDay"></span>/
-                        <span id="menuYear"></span>
-                    </div>
-                    <div class="nav-menu-right blackBorderButton">
-                        <a><p>(Insert weather here)</p></a>
-                    </div>
-                </div>
-            </div>
+        <div class="aboutDiv blackBorderButton">
+            <button onclick="abButton()">About me!</button>
+        </div>
+        <div class="contactDiv blackBorderButton">
+            <button onclick="ctButton()">Contact</button>
+        </div>
     </div>
-
+    <div class="centerMenu">
+        <div class="skills blackBorderButton">
+            <p>I am learning HTML, CSS, JavaScript, Python and enjoy life.</p>
+        </div>
+        <div class="socialMediaDiv blackBorderButton">
+            <button class="fab fa-instagram" onclick="igButton()"></button>
+            <button class="fab fa-github" onclick="gitButton()"></button>
+            <button class="fab fa-twitter" onclick="twButton()"></button>
+        </div>
+    </div>
+    <div class="rightMenu">
+        <div class="dateDiv blackBorderButton">
+            <span id="menuMonth"></span>/<span id="menuDay"></span>/<span id="menuYear"></span>
+        </div>
+        <div class="weatherDiv blackBorderButton">
+            <p>(Insert weather here)</p>
+        </div>
+    </div>
+</div>
 <!--    Content in work page    -->
-    <div class="containerContWork lateralMargin bottomMargin">
-        <div id="introduceMe">
-            <span>Hola estas son algunas de las tecnologias que estoy aprendiendo.</span>
-        </div>
-        <div class="contentWork">
-            <div class="javascriptWorkDiv">
-                <a onclick="jsProjects();">
-                    <span class="fab fa-js"></span>
-                </a>
-            </div>
-            <div class="pythonWorkDiv">
-                <a onclick="pyProjects();">
-                    <span class="fab fa-python"></span>
-                </a>
-            </div>
-            <div class="iaWorkDiv">
-                <a onclick="iaProjects();">
-                    <span class="fas fa-brain"></span>
-                </a>
-            </div>
-        </div>    
-    </div>
+<!-- <span id="introduceMe">Hola estas son algunas de las tecnologias que estoy aprendiendo.</span> -->
+<div class="containerContentWork lateralMargin">
+    <button class="jsButtonWork fab fa-js" onclick="jsProjects()"></button>
+    <button class="pythonButtonWork fab fa-python" onclick="pyProjects()"></button>
+    <button class="iaButtonWork fas fa-brain" onclick="iaProjects()"></button>
+</div>
 <!--    Content in work page    -->
 
 <!--    Footer in work page    -->
+<div>
 <footer id="footer">
-    <div class=" menuContainer topMargin colorWhite lateralMargin">
-            <div class="title-top-seb">
-                <a onclick="sbButton();"><h1>Sebastian Camacho™</h1></a>
+    <div class="titlePage colorWhite">
+        <a onclick="sbButton();"><h1>Sebastian Camacho™</h1></a>
+    </div>
+    <div class="containerMenu lateralMargin">
+        <div class="leftMenu">
+            <div class="workDiv whiteBorderButton">
+                <button class="colorWhite" onclick="wkButton()">Work</button>
             </div>
-            <div class="container">
-            <!--    left menu   -->
-                    <div class="div-menu-left directionDisplayTopMenu">
-                        <div class="nav-menu-left whiteBorderTop whiteBorderButton">
-                            <div class="verticalText" onclick="wkButton();"><span>Work</span></div>
-                        </div>
-                        <div class="nav-menu-left whiteBorderButton">
-                            <div class="verticalText" onclick="abButton();"><span>About</span></div>
-                        </div>
-                        <div class="nav-menu-left whiteBorderButton">
-                            <div class="verticalText" onclick="ctButton();"><span>Contact</span></div>
-                        </div>
-                    </div>
-            <!--    center menu    -->
-                    <div class="div-menu-center directionDisplayTopMenu progress-status">
-                        <div class="whiteBorderTop whiteBorderButton">
-                            <a id="status"><p>My email is sebastian.rob.cam@gmail.com</p></a>
-                        </div>
-                        <div class="nav-menu-center-sm social-media whiteBorderButton">
-                            <a onclick="igButton();"><span class="fab fa-instagram"></span></a> / <a onclick="gitButton();"><span class="fab fa-github"></span></a> / <a onclick="twButton();"><span class="fab fa-twitter"></span></a>
-                        </div>
-                    </div>
-            <!--    right menu  -->
-                    <div class="div-menu-right directionDisplayTopMenu">
-                        <div class="nav-menu-right whiteBorderTop whiteBorderButton date">
-                            <span>Insert what you want here!</span>
-                        </div>
-                    </div>
+            <div class="aboutDiv whiteBorderButton">
+                <button class="colorWhite" onclick="abButton()">About me!</button>
             </div>
+            <div class="contactDiv whiteBorderButton">
+                <button class="colorWhite" onclick="ctButton()">Contact</button>
+            </div>
+        </div>
+        <div class="centerMenu">
+            <div class="colorWhite skills whiteBorderButton">
+                <p>Hi contact me, sebastian.rob.cam@gmail.com.</p>
+            </div>
+            <div class="socialMediaDiv whiteBorderButton">
+                <button class="fab fa-instagram colorWhite" onclick="igButton()"></button>
+                <button class="fab fa-github colorWhite" onclick="gitButton()"></button>
+                <button class="fab fa-twitter colorWhite" onclick="twButton()"></button>
+            </div>
+        </div>
+        <div class="rightMenu colorWhite">
+            <div class="carDiv whiteBorderButton">
+                <p id="f1car">🏎</p>
+                <p id="textCar">"Los sueños no sirven de nada sino los fuerzas a ser realidad."</p>
+            </div>
+        </div>
     </div>
 </footer>
+</div>
 </body>
 <script src="/scriptHome.js"></script>
 </html>

@@ -1,26 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!--    link to things    -->
+    <link href="/style_CSS.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/work/js/style.css"> 
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,400&display=swap" rel="stylesheet">
+<!--    default    -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/work/js/style.css">
     <title>Cap1</title>
 </head>
-<body>
-    <h1 id="firstH1">Condicionales if, if else y else.</h1>
-    <div class="container">
-        <div class="caps">
+<body id="bodyJnCap1">
+    <div class="titlePage">
+        <h1>Condicionales if, if else y else.</h1>
+    </div>
+    <!-- heladosCofla -->
+    <div id="containerCap1">
+        <div>
             <h2>Helados Cofla</h2>
+        </div>
+        <div>
             <p>En este ejercicio Cofla, Pedro, Roberto y tu, van a una heladeria por un helado y preguntan que les alcanza con el dinero que tienen. Ademas lo pagan y les dan su cambio.</p>
+        </div>
+        <div class="btt">
             <button class="buts" onclick="startIceShop();">Run</button>
         </div>
     </div>
 
-<footer>
-    <button class="buts" onclick="backHome()">Home</button>
-</footer>
+    <div class="btt">
+        <button class="buts" onclick="backHome()">Home</button>
+    </div>
+<!-- footer -->
+<div>
+    <footer id="footer">
+    <div class="titlePage colorWhite">
+        <a onclick="sbButton();"><h1>Sebastian Camacho™</h1></a>
+    </div>
+        <div class="containerMenu lateralMargin">
+            <div class="leftMenu">
+                <div class="workDiv whiteBorderButton">
+                    <button class="colorWhite" onclick="wkButton()">Work</button>
+                </div>
+                <div class="aboutDiv whiteBorderButton">
+                    <button class="colorWhite" onclick="abButton()">About me!</button>
+                </div>
+                <div class="contactDiv whiteBorderButton">
+                    <button class="colorWhite" onclick="ctButton()">Contact</button>
+                </div>
+            </div>
+            <div class="centerMenu">
+                <div class="colorWhite skills whiteBorderButton">
+                    <p>Hi contact me, sebastian.rob.cam@gmail.com.</p>
+                </div>
+                <div class="socialMediaDiv whiteBorderButton">
+                    <button class="fab fa-instagram colorWhite" onclick="igButton()"></button>
+                    <button class="fab fa-github colorWhite" onclick="gitButton()"></button>
+                    <button class="fab fa-twitter colorWhite" onclick="twButton()"></button>
+                 </div>
+            </div>
+            <div class="rightMenu colorWhite">
+                <div class="carDiv whiteBorderButton">
+                    <p id="f1car">🏎</p>
+                    <p id="textCar">"Los sueños no sirven de nada sino los fuerzas a ser realidad."</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
     <script src="/work/js/cap1/cap1.js"></script>
     <script src="/work/js/script.js"></script>
+    <script src="/scriptHome.js"></script>
 </body>
 </html>

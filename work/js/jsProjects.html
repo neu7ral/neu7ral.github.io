@@ -3,7 +3,7 @@
 <head>
 <!--    link to things    -->
     <link href="/style_CSS.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/work/js/style.css">
+    <link rel="stylesheet" href="/work/js/style.css"> 
     <link rel="stylesheet" href=
     "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,13 +15,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title class="fab fa-js">Sebastian™ — Js</title>
 </head>
-<body id="body" class="laterlMargin">
-    <div class="menuContainer lateralMargin topMargin">
-        <div class="title-top-seb">
-            <a><h1>javaScriptProjects</h1></a>
-        </div>
-    <h2>jsJunior</h2>
-    <div class="container">
+<body id="bodyJsProjects">
+<div  class="titlePage">
+    <h1>jsProjects</h1>
+</div>
+<!-- juniorLevel -->
+<div class="containerContent">
+    <div>
+        <h2>jsJunior</h2>
+    </div>
+    <div id="buttonsJsJunior">
         <div class="caps">
             <button class="buts" onclick="buttonCap1();">goToCapOne</button>
         </div>
@@ -31,46 +34,107 @@
         <div class="caps">
             <button class="buts" onclick="buttonCap3();">goToCapThree</button>
         </div>
+        <div class="caps">
+            <button class="buts" onclick="">goToCapFour</button>
+        </div>
+        <div class="caps">
+            <button class="buts" onclick="">goToCapFive</button>
+        </div>
+        <div class="caps">
+            <button class="buts" onclick="">goToCapSix</button>
+        </div>
     </div>
-    <h2>Los sueños no sirven de nada sino los fuerzas a ser realidad.</h2>
+</div>
+<!-- jsMid -->
+<div class="containerContent">
+    <div>
+        <h2>jsMid</h2>
     </div>
+    <div class="prox">
+        <span class="textProx">Proximamente...</span>
+        <!-- <div id="buttonsJsMid">
+            <div class="caps">
+                <button class="buts"></button>
+            </div>
+            <div class="caps">
+                <button class="buts"></button>
+            </div>
+            <div class="caps">
+                <button class="buts"></button>
+            </div>
+            <div class="caps">
+                <button class="buts"></button>
+            </div>
+            <div class="caps">
+                <button class="buts"></button>
+            </div>
+            <div class="caps">
+                <button class="buts"></button>
+            </div>
+            <div class="caps">
+                <button class="buts"></button>
+            </div>
+        </div> -->
+    </div>
+</div>
+<!-- jsMaster -->
+<div class="containerContent">
+    <div>
+        <h2>jsMaster</h2>
+    </div>
+    <div class="prox">
+        <span class="textProx">Proximamente...</span>
+        <!-- <div id="buttonsJsMid">
+            <div class="caps">
+                <button class="buts"></button>
+            </div>
+            <div class="caps">
+                <button class="buts"></button>
+            </div>
+            <div class="caps">
+                <button class="buts"></button>
+            </div>
+        </div> -->
+    </div>
+</div>
+<!-- s -->
 <!--    footer div   -->
-<footer id="footer">
-    <div class=" menuContainer topMargin colorWhite lateralMargin">
-        <div class="title-top-seb">
+<div>
+    <footer id="footer">
+        <div class="titlePage colorWhite">
             <a onclick="sbButton();"><h1>Sebastian Camacho™</h1></a>
         </div>
-        <div class="container">
-        <!--    left menu   -->
-                <div class="div-menu-left directionDisplayTopMenu">
-                    <div class="nav-menu-left whiteBorderTop whiteBorderButton">
-                        <div class="verticalText" onclick="wkButton();"><span>Work</span></div>
-                    </div>
-                    <div class="nav-menu-left whiteBorderButton">
-                        <div class="verticalText" onclick="abButton();"><span>About</span></div>
-                    </div>
-                    <div class="nav-menu-left whiteBorderButton">
-                        <div class="verticalText" onclick="ctButton();"><span>Contact</span></div>
-                    </div>
+        <div class="containerMenu lateralMargin">
+            <div class="leftMenu">
+                <div class="workDiv whiteBorderButton">
+                    <button class="colorWhite" onclick="wkButton()">Work</button>
                 </div>
-        <!--    center menu    -->
-                <div class="div-menu-center directionDisplayTopMenu progress-status">
-                    <div class="whiteBorderTop whiteBorderButton">
-                        <a id="status"><p>My email is sebastian.rob.cam@gmail.com</p></a>
-                    </div>
-                    <div class="nav-menu-center-sm social-media whiteBorderButton">
-                        <a onclick="igButton();"><span class="fab fa-instagram"></span></a> / <a onclick="gitButton();"><span class="fab fa-github"></span></a> / <a onclick="twButton();"><span class="fab fa-twitter"></span></a>
-                    </div>
+                <div class="aboutDiv whiteBorderButton">
+                    <button class="colorWhite" onclick="abButton()">About me!</button>
                 </div>
-        <!--    right menu  -->
-                <div class="div-menu-right directionDisplayTopMenu">
-                    <div class="nav-menu-right whiteBorderTop whiteBorderButton date">
-                        <span>Insert what you want here!</span>
-                    </div>
+                <div class="contactDiv whiteBorderButton">
+                    <button class="colorWhite" onclick="ctButton()">Contact</button>
                 </div>
+            </div>
+            <div class="centerMenu">
+                <div class="colorWhite skills whiteBorderButton">
+                    <p>Hi contact me, sebastian.rob.cam@gmail.com.</p>
+                </div>
+                <div class="socialMediaDiv whiteBorderButton">
+                    <button class="fab fa-instagram colorWhite" onclick="igButton()"></button>
+                    <button class="fab fa-github colorWhite" onclick="gitButton()"></button>
+                    <button class="fab fa-twitter colorWhite" onclick="twButton()"></button>
+                </div>
+            </div>
+            <div class="rightMenu colorWhite">
+                <div class="carDiv whiteBorderButton">
+                    <p id="f1car">🏎</p>
+                    <p id="textCar">"Los sueños no sirven de nada sino los fuerzas a ser realidad."</p>
+                </div>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
+</div>
 </body>
 <script src="/scriptHome.js"></script>
 <script src="/work/js/script.js"></script>
