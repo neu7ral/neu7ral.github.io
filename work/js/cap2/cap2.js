@@ -50,7 +50,7 @@ function homelessParty(){
     function validarCliente(time) {
         let edad = prompt("Cual es tu edad?");
         if (edad >= 18) {
-            if (hour >= 23 && hour < 07 && !free) {
+            if (hour >= 1 && hour < 07 && !free) {
                 alert("Puedes pasar gratis.");
                 free = true;
             } else if (hour <= 23) {
@@ -66,6 +66,7 @@ function homelessParty(){
     let hourDiv = new Date();
     let hour = hourDiv.getHours();
     let min = hourDiv.getMinutes();
+    console.log(hour);
 
     validarCliente(hour);
 };

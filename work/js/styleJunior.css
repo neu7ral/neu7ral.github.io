@@ -6,7 +6,7 @@ h2 {
     background-color: #f7f7f7;
     font-family: 'Roboto', Courier, monospace;
     display: grid;
-    grid-template-rows:  50px auto auto auto 250px;
+    grid-template-rows:  90px auto auto auto 270px;
     grid-gap: 25px;
     margin: 0;
     position: relative;
@@ -17,7 +17,7 @@ h2 {
     background-color: #f7f7f7;
     font-family: 'Roboto', Courier, monospace;
     display: grid;
-    grid-template-rows:  50px auto auto 250px;
+    grid-template-rows:  90px auto auto 50px 270px;
     grid-gap: 25px;
     margin: 0;
     position: relative;
@@ -28,7 +28,18 @@ h2 {
     background-color: #f7f7f7;
     font-family: 'Roboto', Courier, monospace;
     display: grid;
-    grid-template-rows:  50px auto 50px 250px;
+    grid-template-rows:  90px auto auto 50px 270px;
+    grid-gap: 25px;
+    margin: 0;
+    position: relative;
+    padding-bottom: auto;
+    min-height: 100vh;
+}
+#bodyJnCap3 {
+    background-color: #f7f7f7;
+    font-family: 'Roboto', Courier, monospace;
+    display: grid;
+    grid-template-rows:  90px auto auto 50px 270px;
     grid-gap: 25px;
     margin: 0;
     position: relative;
@@ -53,12 +64,17 @@ h2 {
     justify-content: center;
     margin: auto;
 }
-.containerCap2 {
+#containerCap2 {
     display: grid;
-    grid-template-rows: 1fr;
-    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
     text-align: center;
-    margin: auto;
+}
+#containerCap3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    text-align: center;
 }
 #buttonsJsJunior{
     display: grid;
@@ -84,7 +100,7 @@ h2 {
     background-color: #000000;
     color: #ffffff;
     height: 50px;
-    width: 150px;
+    width: 250px;
     font-size: 20px;
     text-align: center;
     border: 0;

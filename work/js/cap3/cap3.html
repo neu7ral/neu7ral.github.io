@@ -1,36 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!--    link to things    -->
+    <link rel="stylesheet" href="/style_CSS.css"/>
+    <link rel="stylesheet" href="/work/js/styleJunior.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,400&display=swap" rel="stylesheet">
+<!--    default    -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/work/js/style.css">
     <title>cap3</title>
 </head>
-<body>
-<h1 id="firstH1">Hola este el capitulo 3 del curso de javaScript nivel junior.</h1>
-<div class="container">
-    <div class="caps">
-        <h2>PPO(Crea tu mascota)</h2>
-        <p>Para poder practicar con PPO, se me ocurrio la idea de poder crear a nuestras mascotas como un objeto de js, espero y puedas crear la tuya.</p>
-        <button class="buts" onclick="objectPet();">Run</button>
+<body id="bodyJnCap3">
+    <div>
+        <button class="principalButton" onclick="jsProjects();">
+            <p>jsProjects</p>
+        </button>
     </div>
-    <div class="caps">
-        <h2>PPO(Compra un celular)</h2>
-        <p></p>
-        <button class="buts" onclick="objectPhone();">Run</button>
+    <div class="btt">
+        <h2>cap 3</h2>
+        <p>En este capitulo se ocuparon los OBJect para crear los ejercicos.</p>
     </div>
-    <div class="caps">
-        <h2>PPO(Apss)</h2>
-        <p>Apps for your new smartphone.</p>
-        <button class="buts" onclick="apps();">Run</button>
-    </div>
-</div>
+    <div id="containerCap3" class="lateralMargin">
+        <div class="caps">
+            <h2>PPO(Crea tu mascota)</h2>
+            <p>Para poder practicar con PPO, se me ocurrio la idea de poder crear a nuestras mascotas como un objeto de js, espero y puedas crear la tuya.</p>
+            <button class="buts" onclick="objectPet();">Run</button>
+        </div>
+        <div class="caps">
+            <h2>PPO(Compra un celular)</h2>
+            <p>Blah, blah, blah</p>
+            <button class="buts" onclick="objectPhone();">Run</button>
+        </div>
+        <div class="caps">
+            <h2>PPO(Apss)</h2>
+            <p>Apps for your new smartphone.</p>
+            <button class="buts" onclick="apps();">Run</button>
+        </div>
 
-<footer>
-    <button class="buts" onclick="backHome()">Home</button>
-</footer>
+    </div>
+    <div class="btt">
+        <button class="buts" onclick="backHome()">Home</button>
+    </div>
+<!-- footer -->
+<div class="footerContainer">
+    <footer>
+        <div class="titlePage colorWhite">
+            <button class="principalButton colorWhite" onclick="sbButton();">
+                <p>Sebastian Camacho™</p>
+            </button>
+        </div>
+        <div class="containerMenu lateralMargin">
+            <div class="leftMenu">
+                <div class="workDiv whiteBorderButton">
+                    <button class="colorWhite" onclick="wkButton()">Work</button>
+                </div>
+                <div class="aboutDiv whiteBorderButton">
+                    <button class="colorWhite" onclick="abButton()">About me!</button>
+                </div>
+                <div class="contactDiv whiteBorderButton">
+                    <button class="colorWhite" onclick="ctButton()">Contact</button>
+                </div>
+            </div>
+            <div class="centerMenu">
+                <div class="colorWhite skills whiteBorderButton">
+                    <p>Hi contact me, sebastian.rob.cam@gmail.com.</p>
+                </div>
+                <div class="socialMediaDiv whiteBorderButton">
+                    <button class="fab fa-instagram colorWhite" onclick="igButton()"></button>
+                    <button class="fab fa-github colorWhite" onclick="gitButton()"></button>
+                    <button class="fab fa-twitter colorWhite" onclick="twButton()"></button>
+                </div>
+            </div>
+            <div class="rightMenu colorWhite">
+                <div class="carDiv whiteBorderButton">
+                    <p id="f1car">🏎</p>
+                    <p id="textCar">"Los sueños no sirven de nada sino los fuerzas a ser realidad."</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
     <script src="/work/js/cap3/cap3.js"></script>
     <script src="/work/js/script.js"></script>
-</body>
+    <script src="/scriptHome.js"></script>
 </html>

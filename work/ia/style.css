@@ -1,0 +1,20 @@
+#bodyIaProjects {
+    background-color: #f7f7f7;
+    font-family: 'Roboto', Courier, monospace;
+    display: grid;
+    grid-template-rows:  90px 1fr 270px;
+    grid-gap: 25px;
+    margin: 0;
+    position: relative;
+    padding-bottom: auto;
+    min-height: 100vh;
+}
+.iaProx {
+    display: grid;
+    margin: auto;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}

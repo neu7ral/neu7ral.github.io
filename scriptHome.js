@@ -22,6 +22,9 @@
     function twButton() {
         window.location.href="https://twitter.com/RocsSebastian";
     };
+    function lkButton() {
+        window.location.href=""
+    }
     // (--->    top menu right-part   <---)
     let menuRightDate =()=>{
         let dateDiv = new Date()
@@ -54,3 +57,6 @@
         window.location.href="/work/ia/iaProjects.html";
     };
 // (--->    Work workPage   <---)
+// (--->    Contact workPage   <---)
+    
+// (--->    Contact workPage   <---)

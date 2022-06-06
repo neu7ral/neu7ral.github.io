@@ -3,7 +3,7 @@
 <head>
 <!--    link to things    -->
     <link href="/style_CSS.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/work/js/style.css"> 
+    <link rel="stylesheet" href="/work/js/styleJunior.css"> 
     <link rel="stylesheet" href=
     "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,12 +13,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/work/js/style.css">
     <title>Cap1</title>
 </head>
 <body id="bodyJnCap1">
     <div class="titlePage">
-        <h1>Condicionales if, if else y else.</h1>
+        <button class="principalButton" onclick="jsProjects();">
+            <p>jsProjects</p>
+        </button>
+    </div>
+    <div class="btt">
+        <h2>cap1</h2>
+        <p>En este capitulo se utilizaron condicionales para poder ayudar a Cofla y a sus amigos a comprar un 🍦. Ademas de darles el cambio de acuerdo al helado que compraron.</p>
     </div>
     <!-- heladosCofla -->
     <div id="containerCap1">
@@ -37,11 +42,13 @@
         <button class="buts" onclick="backHome()">Home</button>
     </div>
 <!-- footer -->
-<div>
-    <footer id="footer">
-    <div class="titlePage colorWhite">
-        <a onclick="sbButton();"><h1>Sebastian Camacho™</h1></a>
-    </div>
+<div class="footerContainer">
+    <footer>
+        <div class="titlePage colorWhite">
+            <button class="principalButton colorWhite" onclick="sbButton();">
+                <p>Sebastian Camacho™</p>
+            </button>
+        </div>
         <div class="containerMenu lateralMargin">
             <div class="leftMenu">
                 <div class="workDiv whiteBorderButton">
@@ -62,7 +69,7 @@
                     <button class="fab fa-instagram colorWhite" onclick="igButton()"></button>
                     <button class="fab fa-github colorWhite" onclick="gitButton()"></button>
                     <button class="fab fa-twitter colorWhite" onclick="twButton()"></button>
-                 </div>
+                </div>
             </div>
             <div class="rightMenu colorWhite">
                 <div class="carDiv whiteBorderButton">
@@ -73,8 +80,8 @@
         </div>
     </footer>
 </div>
+</body>
     <script src="/work/js/cap1/cap1.js"></script>
     <script src="/work/js/script.js"></script>
     <script src="/scriptHome.js"></script>
-</body>
 </html>

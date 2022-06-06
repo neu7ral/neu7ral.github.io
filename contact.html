@@ -3,8 +3,7 @@
 <head>
 <!--    link to things    -->
     <link href="/style_CSS.css" rel="stylesheet" />
-    <link rel="stylesheet" href=
-    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,400&display=swap" rel="stylesheet">
@@ -14,83 +13,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sebastian™ — Contact</title>
 </head>
-<body id="body" class="lateralMargin">
-    <div class="menuContainer lateralMargin topMargin">
-        <div class="title-top-seb">
-            <a onclick="sbButton();"><h1>Sebastian Camacho🇲🇽</h1></a>
+<body id="bodyContact">
+<!-- Menu -->
+<div>
+    <button class="principalButton" onclick="sbButton();">
+        <p>Sebastian Camacho™</p>
+    </button>
+</div>
+<div class="containerMenu lateralMargin">
+    <div class="leftMenu">
+        <div class="workDiv blackBorderButton">
+            <button onclick="wkButton()">Work</button>
         </div>
-        <!--    left menu   -->
-            <div class="container">
-                <div class="div-menu-left directionDisplayTopMenu">
-                    <div class="nav-menu-left blackBorderTop blackBorderButton">
-                        <div class="verticalText" onclick="wkButton();"><span>Work</span></div>
-                    </div>
-                    <div class="nav-menu-left blackBorderButton">
-                        <div class="verticalText" onclick="abButton();"><span>About</span></div>
-                    </div>
-                    <div class="nav-menu-left blackBorderButton">
-                        <div class="verticalText" onclick="ctButton();"><span>Contact</span></div>
-                    </div>
-                </div>
-        <!--    center menu    -->
-                <div class="div-menu-center directionDisplayTopMenu progress-status">
-                    <div class="blackBorderTop blackBorderButton">
-                        <a id="status"><p>I am learning HTML, CSS, JavaScript, Python and enjoy life.</p></a>
-                    </div>
-                    <div class="nav-menu-center-sm social-media blackBorderButton">
-                        <a onclick="igButton();"><span class="fab fa-instagram"></span></a> / <a onclick="gitButton();"><span class="fab fa-github"></span></a> / <a onclick="twButton();"><span class="fab fa-twitter"></span></a>
-                    </div>
-                </div>
-        <!--    right menu  -->
-                <div class="div-menu-right directionDisplayTopMenu">
-                    <div class="nav-menu-right blackBorderTop blackBorderButton date">
-                        <span id="menuMonth"></span>/
-                        <span id="menuDay"></span>/
-                        <span id="menuYear"></span>
-                    </div>
-                    <div class="nav-menu-right blackBorderButton">
-                        <a><p>(Insert weather here)</p></a>
-                    </div>
-                </div>
-            </div>
+        <div class="aboutDiv blackBorderButton">
+            <button onclick="abButton()">About me!</button>
+        </div>
+        <div class="contactDiv blackBorderButton">
+            <button onclick="ctButton()">Contact</button>
+        </div>
     </div>
+    <div class="centerMenu">
+        <div class="skills blackBorderButton">
+            <p>I am learning HTML, CSS, JavaScript, Python and enjoy life.</p>
+        </div>
+        <div class="socialMediaDiv blackBorderButton">
+            <button class="fab fa-instagram" onclick="igButton()"></button>
+            <button class="fab fa-github" onclick="gitButton()"></button>
+            <button class="fab fa-twitter" onclick="twButton()"></button>
+        </div>
+    </div>
+    <div class="rightMenu">
+        <div class="dateDiv blackBorderButton">
+            <span id="menuMonth"></span>/<span id="menuDay"></span>/<span id="menuYear"></span>
+        </div>
+        <div class="weatherDiv blackBorderButton">
+            <p>(Insert weather here)</p>
+        </div>
+    </div>
+</div>
+<!-- content -->
+<div id="sm">
+    <div>
+        <div id="textSm">
+            <div>
+            <h2>Contact with me</h2>
+            <p>Contact me for this mediums.</p>
+            <span>=></span>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="divLine">
+            <div>
+                <button class="buttCont">My email: sebastian.rob.cam@gmail.com</button>
+            </div>
+            <div>
+                <button class="buttCont" onclick="lkButton();">LinkedIn</button>
+            </div>
+            <div>
+                <button class="buttCont" onclick="twButton();">Twitter</button>
+            </div>
+            <div>
+                <button class="buttCont" onclick="igButton();">Instagram</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="for">
+
+</div>
 <!--    Footer in work page    -->
-<footer id="footer">
-    <div class=" menuContainer topMargin colorWhite lateralMargin">
-            <div class="title-top-seb">
-                <a onclick="sbButton();"><h1>Sebastian Camacho™</h1></a>
+<div class="footerContainer">
+    <footer>
+        <div class="titlePage colorWhite">
+            <button class="principalButton colorWhite" onclick="sbButton();">
+                <p>Sebastian Camacho™</p>
+            </button>
+        </div>
+        <div class="containerMenu lateralMargin">
+            <div class="leftMenu">
+                <div class="workDiv whiteBorderButton">
+                    <button class="colorWhite" onclick="wkButton()">Work</button>
+                </div>
+                <div class="aboutDiv whiteBorderButton">
+                    <button class="colorWhite" onclick="abButton()">About me!</button>
+                </div>
+                <div class="contactDiv whiteBorderButton">
+                    <button class="colorWhite" onclick="ctButton()">Contact</button>
+                </div>
             </div>
-            <div class="container">
-            <!--    left menu   -->
-                    <div class="div-menu-left directionDisplayTopMenu">
-                        <div class="nav-menu-left whiteBorderTop whiteBorderButton">
-                            <div class="verticalText" onclick="wkButton();"><span>Work</span></div>
-                        </div>
-                        <div class="nav-menu-left whiteBorderButton">
-                            <div class="verticalText" onclick="abButton();"><span>About</span></div>
-                        </div>
-                        <div class="nav-menu-left whiteBorderButton">
-                            <div class="verticalText" onclick="ctButton();"><span>Contact</span></div>
-                        </div>
-                    </div>
-            <!--    center menu    -->
-                    <div class="div-menu-center directionDisplayTopMenu progress-status">
-                        <div class="whiteBorderTop whiteBorderButton">
-                            <a id="status"><p>My email is sebastian.rob.cam@gmail.com</p></a>
-                        </div>
-                        <div class="nav-menu-center-sm social-media whiteBorderButton">
-                            <a onclick="igButton();"><span class="fab fa-instagram"></span></a> / <a onclick="gitButton();"><span class="fab fa-github"></span></a> / <a onclick="twButton();"><span class="fab fa-twitter"></span></a>
-                        </div>
-                    </div>
-            <!--    right menu  -->
-                    <div class="div-menu-right directionDisplayTopMenu">
-                        <div class="nav-menu-right whiteBorderTop whiteBorderButton date">
-                            <span>Insert what you want here!</span>
-                        </div>
-                    </div>
+            <div class="centerMenu">
+                <div class="colorWhite skills whiteBorderButton">
+                    <p>Hi contact me, sebastian.rob.cam@gmail.com.</p>
+                </div>
+                <div class="socialMediaDiv whiteBorderButton">
+                    <button class="fab fa-instagram colorWhite" onclick="igButton()"></button>
+                    <button class="fab fa-github colorWhite" onclick="gitButton()"></button>
+                    <button class="fab fa-twitter colorWhite" onclick="twButton()"></button>
+                </div>
             </div>
-    </div>
-</footer>
+            <div class="rightMenu colorWhite">
+                <div class="carDiv whiteBorderButton">
+                    <p id="f1car">🏎</p>
+                    <p id="textCar">"Los sueños no sirven de nada sino los fuerzas a ser realidad."</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
 </body>
 <script src="/scriptHome.js"></script>
 </html>

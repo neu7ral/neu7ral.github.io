@@ -15,8 +15,10 @@
     <title>Sebastian™ — SoftwerEnginner</title>
 </head>
 <body id="bodyIndex">
-<div class="titlePage">
-    <a onclick="sbButton();"><h1>Sebastian Camacho™</h1></a>
+<div>
+    <button class="principalButton" onclick="sbButton();">
+        <p>Sebastian Camacho™</p>
+    </button>
 </div>
 <div class="containerMenu lateralMargin">
     <div class="leftMenu">
@@ -51,46 +53,50 @@
 </div>
     <!-- Content container   -->
 <div class="containerContent lateralMargin">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
 </div>
     <!-- footer div    -->
-<footer id="footer">
-    <div class="titlePage colorWhite">
-        <a onclick="sbButton();"><h1>Sebastian Camacho™</h1></a>
-    </div>
-    <div class="containerMenu lateralMargin">
-        <div class="leftMenu">
-            <div class="workDiv whiteBorderButton">
-                <button class="colorWhite" onclick="wkButton()">Work</button>
+<div class="footerContainer">
+    <footer>
+        <div class="titlePage colorWhite">
+            <button class="principalButton colorWhite" onclick="sbButton();">
+                <p>Sebastian Camacho™</p>
+            </button>
+        </div>
+        <div class="containerMenu lateralMargin">
+            <div class="leftMenu">
+                <div class="workDiv whiteBorderButton">
+                    <button class="colorWhite" onclick="wkButton()">Work</button>
+                </div>
+                <div class="aboutDiv whiteBorderButton">
+                    <button class="colorWhite" onclick="abButton()">About me!</button>
+                </div>
+                <div class="contactDiv whiteBorderButton">
+                    <button class="colorWhite" onclick="ctButton()">Contact</button>
+                </div>
             </div>
-            <div class="aboutDiv whiteBorderButton">
-                <button class="colorWhite" onclick="abButton()">About me!</button>
+            <div class="centerMenu">
+                <div class="colorWhite skills whiteBorderButton">
+                    <p>Hi contact me, sebastian.rob.cam@gmail.com.</p>
+                </div>
+                <div class="socialMediaDiv whiteBorderButton">
+                    <button class="fab fa-instagram colorWhite" onclick="igButton()"></button>
+                    <button class="fab fa-github colorWhite" onclick="gitButton()"></button>
+                    <button class="fab fa-twitter colorWhite" onclick="twButton()"></button>
+                </div>
             </div>
-            <div class="contactDiv whiteBorderButton">
-                <button class="colorWhite" onclick="ctButton()">Contact</button>
+            <div class="rightMenu colorWhite">
+                <div class="carDiv whiteBorderButton">
+                    <p id="f1car">🏎</p>
+                    <p id="textCar">"Los sueños no sirven de nada sino los fuerzas a ser realidad."</p>
+                </div>
             </div>
         </div>
-        <div class="centerMenu">
-            <div class="colorWhite skills whiteBorderButton">
-                <p>Hi contact me, sebastian.rob.cam@gmail.com.</p>
-            </div>
-            <div class="socialMediaDiv whiteBorderButton">
-                <button class="fab fa-instagram colorWhite" onclick="igButton()"></button>
-                <button class="fab fa-github colorWhite" onclick="gitButton()"></button>
-                <button class="fab fa-twitter colorWhite" onclick="twButton()"></button>
-            </div>
-        </div>
-        <div class="rightMenu colorWhite">
-            <div class="carDiv whiteBorderButton">
-                <p id="f1car">🏎</p>
-                <p id="textCar">"Los sueños no sirven de nada sino los fuerzas a ser realidad."</p>
-            </div>
-        </div>
-    </div>
-</footer>
+    </footer>
+</div>
 </body>
 <script src="/scriptHome.js"></script>
 </html>
