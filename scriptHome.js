@@ -27,13 +27,13 @@
     }
     // (--->    top menu right-part   <---)
     let menuRightDate =()=>{
-        let dateDiv = new Date()
-        let month = dateDiv.getMonth()
-        let day = dateDiv.getDate()
-        let year = dateDiv.getFullYear()
+        let dateDiv = new Date();
+        let month = dateDiv.getMonth();
+        let day = dateDiv.getDate();
+        let year = dateDiv.getFullYear();
 
-        let spanMonth = document.getElementById("menuMonth")
-        let spanDay = document.getElementById("menuDay")
+        let spanMonth = document.getElementById("menuMonth");
+        let spanDay = document.getElementById("menuDay");
         let spanYear = document.getElementById("menuYear");
 
         let mon = ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]

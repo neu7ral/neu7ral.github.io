@@ -46,6 +46,17 @@ h2 {
     padding-bottom: auto;
     min-height: 100vh;
 }
+#bodyJnCap4 {
+    background-color: #f7f7f7;
+    font-family: 'Roboto', Courier, monospace;
+    display: grid;
+    grid-template-rows:  90px auto auto 50px 270px;
+    grid-gap: 25px;
+    margin: 0;
+    position: relative;
+    padding-bottom: auto;
+    min-height: 100vh;
+}
 .containerContent {
     display: grid;
     grid-template-rows: repeat(2, auto);
@@ -60,7 +71,6 @@ h2 {
 #containerCap1{
     display: grid;
     grid-template-rows: 1fr;
-    grid-gap: 10px;
     justify-content: center;
     margin: auto;
 }
@@ -71,6 +81,12 @@ h2 {
     text-align: center;
 }
 #containerCap3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+}
+#containerCap4 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
