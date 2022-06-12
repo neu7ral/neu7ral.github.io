@@ -55,16 +55,17 @@ function calc() {
         alert("No se encontro la operacion.")
     }
 };
-// Facultad de Cofla
-let faculCofla = ()=>{
-    let listMaterias = [" Tecnologias de la informacion ", " Algoritmos", " Construccion de software ", " Matematicas"];
-    let listAlumnos = {
+//Sofen University
+let materiasSofen = document.getElementById("materiasSofen");
+    materiasSofen.textContent = "Estas son las materias que se inparte en el primer ano en Sofen: Tecnologias de la informacion, Algoritmos, Construccion de software, Matematicas.";
+let listMaterias = [" Tecnologias de la informacion ", " Algoritmos", " Construccion de software ", " Matematicas"];
+let listAlumnos = {
         tecnologiasDeLaInformacion: ["Pedro", "Cofla", "Sofia","Atenea"],
         algoritmos: ["Sebastian", "Pedro", "Sofia","Atenea"],
         construccionDeSoftware: ["Sebastian", "Pedro", "Cofla", "Sofia","Atenea"],
         matematicas: ["Sebastian", "Pedro", "Cofla", "Sofia","Atenea"]
     };
-
+let faculCofla = ()=>{
     alert(`Bienvenido a la Facultad Soften,en este ciclo se impartiran estas materias: ${listMaterias}.`)
     alert("Puedes consultar mas informacion escribiendo el nombre de la materia.")
 
@@ -84,8 +85,6 @@ let faculCofla = ()=>{
     }
     let materiaPro = prompt(`(Escribe el nombre de la materia para mas info. Materias: ${listMaterias}.)`)
     adpt = materiaPro.toLowerCase();
-    
-    console.log(adpt);
     materias(adpt);
 
     function materias(string) {
@@ -107,4 +106,22 @@ let faculCofla = ()=>{
             alert("No existe esa materia en tu ciclo.")
         }
     };
+    let infoForAlum = prompt("(Ingresa el nombre del alumno para saber sus clases).");
+    adpt2 = infoForAlum.toLowerCase();
+        if (adpt2 == "cofla"){
+            clasAsisAlum();
+        }
+    function clasAsisAlum(alumno) {
+        let infor = infoMateria();
+        let clasesPresentes = [];
+        let cantidad = 0;
+
+        for(listaAlumnos in infor) {
+            if (infor[listaAlumnos]) {
+                cantidad++;
+                clasesPresentes.push(" " + listaAlumnos)
+            }
+        }
+        return `${alumno} esta en ${cantidad}. Estas son sus clases: ${clasesPresentes}.`
+    }
 };

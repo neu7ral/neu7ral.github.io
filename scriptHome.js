@@ -14,7 +14,7 @@
     };
     // (--->    top menu center-part   <---)
     function igButton() {
-        window.location.href="https://www.instagram.com/_robl3s_/?hl=en";
+        window.location.href="https://www.instagram.com/rocs_soften/?hl=en";
     };
     function gitButton() {
         window.location.href="https://github.com/neu7ral";
