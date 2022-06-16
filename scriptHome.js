@@ -1,4 +1,13 @@
 // (--->    HOME indexPage   <---)
+// tittle buttos and more
+const ig = document.querySelector(".fa-instagram");
+ig.setAttribute("title","Instagram");
+const gitHub = document.querySelector(".fa-github");
+gitHub.setAttribute("title","Git Hub");
+const twitter = document.querySelector(".fa-twitter");
+twitter.setAttribute("title","Twitter");
+let f1Car = document.querySelector("#f1car");
+f1Car.setAttribute("title","Never give up by Checo Perez");
     // (--->    top menu left-part   <---)
     function sbButton() {
         window.location.href="/index.html";
@@ -47,6 +56,14 @@
     menuRightDate();
 // (--->    END indexPage   <---)
 // (--->    Work workPage   <---)
+//titulos tecnologias
+const js = document.querySelector(".jsButtonWork");
+js.setAttribute("title","javaScript");
+const py = document.querySelector(".pythonButtonWork");
+py.setAttribute("title","Python");
+const ia = document.querySelector(".iaButtonWork");
+ia.setAttribute("title","Artificial intelligence");
+//funciones de bottones tecnologias
     function jsProjects() {
         window.location.href="/work/js/jsProjects.html";
     };
@@ -60,3 +77,4 @@
 // (--->    Contact workPage   <---)
     
 // (--->    Contact workPage   <---)
+// (--->    Footer   <---)
