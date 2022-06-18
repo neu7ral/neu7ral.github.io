@@ -1,0 +1,15 @@
+
+.guiToscana {
+    display: grid;
+    grid-template-rows: 1fr;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.productsToscana {
+    text-align: left;
+}
+.containerMenuToscana {
+    display: flex;
+    flex-direction: column;
+}

@@ -81,9 +81,11 @@ h2 {
 }
 #containerCap1{
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-columns:  repeat(2, 1fr);
     justify-content: center;
-    margin: auto;
+    grid-gap: 10px;
+    margin-left: 13%;
+    margin-right: 13%;
 }
 #containerCap2 {
     display: grid;
